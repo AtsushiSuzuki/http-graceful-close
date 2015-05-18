@@ -1,0 +1,13 @@
+{
+  "name": "@atsushi_suzuki/http-graceful-close",
+  "version": "0.0.1",
+  "description": "gracefully close http server with keep-alive connections",
+  "keywords": ["http", "server", "graceful", "close"],
+  "author": "Atsushi Suzuki",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AtsushiSuzuki/http-graceful-close.git"
+  },
+  "main": "index.js"
+}
