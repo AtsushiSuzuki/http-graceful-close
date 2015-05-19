@@ -57,7 +57,7 @@ function install(server) {
 function setIdleTimeout(server, conn) {
   var onTimeout = function () {
     debug('closing connection');
-    conn.end();
+    conn.destroy();
     server.removeListener('request', onRequest);
   };
   conn.setTimeout(400, onTimeout);
