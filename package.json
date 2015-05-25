@@ -1,6 +1,6 @@
 {
   "name": "@atsushi_suzuki/http-graceful-close",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "gracefully close http server with keep-alive connections",
   "keywords": ["http", "server", "graceful", "close"],
   "author": "Atsushi Suzuki",
